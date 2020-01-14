@@ -19,10 +19,6 @@ export class Login extends Component {
                         <Form.Control className="mb-2 col-md-10" type="password" placeholder="Password" style={{ float: 'none', margin: '0 auto' }} />
                     </Form.Group>
                     <NavLink tag={Link} className="text-info" to="/register">Forgot password?</NavLink>
-                    {/* <Form.Group controlId="formBasicRememberMe">
-                        <Form.Text className="text-muted">Remember me?</Form.Text>
-                        <Form.Check />
-                    </Form.Group> */}
                     <Button className="mb-2 col-md-4" style={{ boxShadow: '5px 5px 10px #cccccc' }} variant="primary" type="submit">Submit</Button>
                 </Form>
             </Card>
