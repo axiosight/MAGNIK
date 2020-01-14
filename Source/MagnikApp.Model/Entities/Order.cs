@@ -19,6 +19,6 @@ namespace MagnikApp.Model.Entities
 
         public DateTime NowDateTime { get; set; }
 
-        public virtual PetService PetService { get; set; }
+        public virtual ICollection<PetService> PetServices { get; set; }
     }
 }
