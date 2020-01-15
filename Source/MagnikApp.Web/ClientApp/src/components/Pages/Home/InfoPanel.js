@@ -11,7 +11,7 @@ export class InfoPanel extends Component {
             <Row>
                 <div className="col-md-4">
                     <Accordion defaultActiveKey="0">
-                        <Card style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
+                        <Card className="mb-4" style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
                             <Card.Body className="text-center">
                                 <Image className="border" style={{ width: '180px', height: '180px', boxShadow: '7px 7px 12px #cccccc'}} src={tOne} alt="Logo" roundedCircle />
                             </Card.Body>
@@ -40,7 +40,7 @@ export class InfoPanel extends Component {
                 </div>
                 <div className="col-md-4">
                     <Accordion defaultActiveKey="0">
-                        <Card style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
+                        <Card className="mb-4" style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
                             <Card.Body className="text-center">
                                 <Image className="border" style={{ width: '180px', height: '180px', boxShadow: '7px 7px 12px #cccccc'}} src={tSecond} alt="Logo" roundedCircle />
                             </Card.Body>
@@ -68,7 +68,7 @@ export class InfoPanel extends Component {
                 </div>
                 <div className="col-md-4">
                     <Accordion defaultActiveKey="0">
-                        <Card style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
+                        <Card className="mb-4" style={{backgroundColor: '#d8ffd1', boxShadow: '7px 7px 12px #cccccc'}}>
                             <Card.Body className="text-center">
                                 <Image className="border" style={{ width: '180px', height: '180px', boxShadow: '7px 7px 12px #cccccc'}} src={tThird} alt="Logo" roundedCircle />
                             </Card.Body>
